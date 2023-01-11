@@ -4,20 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Share Your File</title>
+    <!-- gfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <!-- gfonts  ending -->
+    <title>One Tap To Share!</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="favicon.png">
+    
 </head>
 <body>
-        <h1 style="background-color: rgb(211, 127, 0); color:white;">Real Time File Share</h1>
-        <div style="background-color: yellow; padding: 5px; margin-bottom: 10px;;">Room ID : <span id="room" style="color: red;"></span></div>
-        <div style="background-color: rgb(255, 228, 139);">
+    
+
+    <div class="whole">
+        <div class="sec">
+            <h1 class="title">
+                <span class="title-word title-word-1">Real</span>
+                <span class="title-word title-word-2">Time</span>
+                <span class="title-word title-word-3">File</span>
+                <span class="title-word title-word-4">Share</span></h1>
+        <div class="room-id">Room ID : <span id="room" style="color: red;"></span></div>
+        <div  class="receiver">
             <strong>Recievers</strong>
             <br>
             <ul id="rec-list">
+                <li>kjgsc</li>
+                <li>kjgsc</li>
             </ul>
         </div>
-        
+        <!-- <label for="file">gud</label> -->
         <input id="file" type="file" name="file">
-        <button id="file-btn">Send File</button>
+        <br>
+        <button id="file-btn">Send</button>
+        
+    </div>
+    </div>
+    <div class="snowflakes" aria-hidden="true">
+  
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
     
 
     <script src="./socket.io/socket.io.js"></script>
