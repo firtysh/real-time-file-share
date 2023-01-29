@@ -40,6 +40,6 @@ app.get('/recieve', (req, res) => {
   res.sendFile(__dirname + '/public/receiver.html');
 })
 
-server.listen(3000, () => {
+server.listen(process.env.PORT, () => {
   console.log("listening on port 3000");
 })
