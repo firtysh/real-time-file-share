@@ -36,7 +36,7 @@ io.on('connection', (socket) => {
 app.get('/send', (req, res) => {
   res.sendFile(__dirname + '/public/sender.html');
 })
-app.get('/recieve', (req, res) => {
+app.get('/receive', (req, res) => {
   res.sendFile(__dirname + '/public/receiver.html');
 })
 
