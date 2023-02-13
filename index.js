@@ -33,6 +33,10 @@ io.on('connection', (socket) => {
   })
 })
 
+app.get("/",(req,res)=>{
+  res.sendFile(__dirname+'/public/home.html');
+})
+
 app.get('/send', (req, res) => {
   res.sendFile(__dirname + '/public/sender.html');
 })

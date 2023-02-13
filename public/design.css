@@ -201,3 +201,28 @@ input::file-selector-button {
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.25);
 }
+
+.home_main{
+  padding: 20px 50px 20px 20px;
+  letter-spacing: 1px;
+  width: 100%;
+  color: white;
+  display: flex;
+
+}
+
+#main{
+  display: flex;
+    border: 3px solid white;
+    width: 55%;
+    height:  80px;
+    margin-top: 2%;
+    margin-left: 23%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+  }
+
