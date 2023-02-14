@@ -223,6 +223,11 @@ input::file-selector-button {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
+    color: #00425A;
     
+  }
+
+  #main:hover{
+    background-color: #FC7300;
   }
 
