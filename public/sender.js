@@ -28,3 +28,9 @@ socket.on('init',(data)=>{
     // receiver=data.id;
     receiver_list.innerHTML += `<li>${data.id}</li>`
 })
+
+const span = document.querySelector("#room");
+
+span.addEventListener("click", () => {
+    navigator.clipboard.writeText(span.textContent);
+});
