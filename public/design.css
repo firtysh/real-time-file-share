@@ -42,6 +42,7 @@ align-items: center;
     text-shadow: 0.5px white;
     animation: xyzz 3s linear alternate;
 }
+
 @keyframes xyzz{
   0%{
     opacity: 0%;
@@ -53,7 +54,17 @@ align-items: center;
     opacity: 100%;
   }
 }
-
+li{
+  color: rgb(32, 37, 22);
+  text-shadow:2px 2px rgb(117, 117, 138) ;
+}
+strong{
+  color: #000034;
+}
+.room-id{
+  color:rgb(36, 64, 64);
+  text-shadow: 2px 2px red;
+}
 .receiver{
     padding-top: .5%;
     padding: 1.5%;
@@ -67,6 +78,12 @@ align-items: center;
 /* strong{
   border-bottom: 2px solid red;
 } */
+input#file {
+
+  color:turquoise;
+  text-shadow: 2px 2px rgb(14, 41, 38);
+  width:244px;
+ }
 #rec-list{
   border: 3px solid white;
   width: 55%;
@@ -91,12 +108,12 @@ align-items: center;
   
 }
 .title:hover{
-text-shadow: 2px 2px #FF0000;
-}
+  text-shadow: 2px 2px yellowgreen;
+  }
 .title-word {
    
     animation: color-animation 3s linear alternate;
-    color: white;
+    color: brown;
 
     
   }
@@ -196,7 +213,7 @@ input{
 }
 input::file-selector-button {
   font-weight: bold;
-  color: red;
+  color:  #f7eb09;
   font-family: 'Silkscreen', cursive;
   padding: 0.5em;
   border: none;
@@ -269,4 +286,43 @@ input::file-selector-button {
     .contact a:hover{
       color: #00425A;
       background-color: #FC7300;
+    }
+    @media only screen and (max-width: 1200px){
+      input::file-selector-button {
+        font-weight: bold;
+        color: rgb(66, 57, 57);
+        font-family: 'Silkscreen', cursive;
+        padding: 0.5em;
+        border: none;
+        text-shadow: 1px 1px white;
+        border-radius: 3px;
+        background: rgba(255, 255, 255, 0.25);
+        width:102px;
+      }
+    }
+    @media only screen and (max-width: 550px){
+      strong{
+        color:#d1dde0
+      }
+      input#file {
+        width:152px;
+       }
+       input::file-selector-button {
+        color:red;
+        width:75px;
+      }
+      li{
+        color:#f7eb09;
+      }
+      strong{
+        color: rgb(225, 0, 255);
+      }
+    }
+    @media only screen and (max-width: 435px){
+      strong{
+        color: rgb(219, 210, 210);
+      }
+      li{
+        color:#fbc205;
+      }
     }
