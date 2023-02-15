@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Silkscreen', cursive;
-    color: midnightblue;
+    color: white;
 }
 body{
   background-image: url(background.jpg);
@@ -36,7 +36,7 @@ width: 40%;
     /* border: 2px solid  green; */
     font-size: 1.2rem;
     padding: 2%;
-    text-shadow: 0.5px white;
+    text-shadow: 0.5px brown;
     animation: xyzz 3s linear alternate;
 }
 @keyframes xyzz{
@@ -50,13 +50,24 @@ width: 40%;
     opacity: 100%;
   }
 }
+li{
+  color: rgb(32, 37, 22);
+  text-shadow:2px 2px rgb(117, 117, 138) ;
+}
+strong{
+  color: #000034;
+}
+.room-id{
+  color:rgb(36, 64, 64);
+  text-shadow: 2px 2px red;
+}
 
 .receiver{
     padding-top: .5%;
     padding: 1.5%;
     letter-spacing: 1px;
     width: 100%;
-    color: white;
+   
     /* display: flex;
     justify-content: center; */
 
@@ -64,6 +75,12 @@ width: 40%;
 /* strong{
   border-bottom: 2px solid red;
 } */
+input#file {
+
+ color:turquoise;
+ text-shadow: 2px 2px rgb(14, 41, 38);
+ width:244px;
+}
 #rec-list{
   border: 3px solid white;
   width: 55%;
@@ -88,12 +105,12 @@ width: 40%;
   
 }
 .title:hover{
-text-shadow: 2px 2px #FF0000;
+text-shadow: 2px 2px yellowgreen;
 }
 .title-word {
    
     animation: color-animation 3s linear alternate;
-    color: white;
+    color: brown;
 
     
   }
@@ -193,11 +210,42 @@ input{
 }
 input::file-selector-button {
   font-weight: bold;
-  color: red;
+  color: rgb(66, 57, 57);;
   font-family: 'Silkscreen', cursive;
   padding: 0.5em;
   border: none;
   text-shadow: 1px 1px white;
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.25);
+}
+@media only screen and (max-width: 1200px){
+  input::file-selector-button {
+    font-weight: bold;
+    color: rgb(66, 57, 57);
+    font-family: 'Silkscreen', cursive;
+    padding: 0.5em;
+    border: none;
+    text-shadow: 1px 1px white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.25);
+    width:102px;
+  }
+}
+@media only screen and (max-width: 550px){
+  strong{
+    color:#d1dde0
+  }
+  input#file {
+    width:152px;
+   }
+   input::file-selector-button {
+    color:red;
+    width:75px;
+  }
+  li{
+    color:#ecb70a
+  }
+}
+@media only screen and (min-width: 600px){
+  
 }
