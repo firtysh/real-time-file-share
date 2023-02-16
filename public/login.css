@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
 body {
+    background: linear-gradient(#89CFF0, #1f698b);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #FC5F00);
 }
 
 .container {
@@ -26,22 +24,13 @@ body {
 }
 
 .container .title {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
     position: relative;
     align-self: center;
     justify-self: center;
-}
-
-.container .title::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    border-radius: 5px;
-    background: linear-gradient(135deg, #71b7e6, #FC5F00);
+    color: #1d769f;
+    font-family: 'Asul', sans-serif !important;
 }
 
 .content form .user-details {
@@ -49,6 +38,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
+    color: #1f698b;
 }
 
 form .user-details .input-box {
@@ -76,7 +66,7 @@ form .input-box span.details {
 
 .user-details .input-box input:focus,
 .user-details .input-box input:valid {
-    border-color: #FC5F00;
+    border-color: #1f698b;
 }
 
 form .button {
@@ -95,11 +85,11 @@ form .button input {
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #71b7e6, #FC5F00);
+    background: linear-gradient(#89CFF0, #1f698b);
 }
 
 form .button input:hover {
-    background: linear-gradient(-135deg, #71b7e6, #FC5F00);
+    background: linear-gradient(#1f698b, #89CFF0);
 }
 
 @media(max-width: 584px) {
@@ -121,4 +111,5 @@ form .button input:hover {
         width: 5px;
     }
 }
+
 
