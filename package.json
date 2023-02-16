@@ -1,7 +1,7 @@
 {
   "name": "real-time-file-share",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real Time File Share is a web aplication built with **[Express](https://expressjs.com/)** and **[Socket.io](https://socket.io/)**  to share files in real time.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suniti-0020/real-time-file-share.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Suniti-0020/real-time-file-share/issues"
+  },
+  "homepage": "https://github.com/Suniti-0020/real-time-file-share#readme"
 }
