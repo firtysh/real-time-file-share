@@ -6,25 +6,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recieve Files</title>
-    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asul:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            margin:0 ;
+            background: linear-gradient(#89CFF0, #1f698b);
+            font-family: 'Varela Round', sans-serif;
+            line-height: 30px;
+            color: #1f698b;
+            font-size: 16px;
+        }
+
+        .container {
+            margin: 5% 10%;
+            background-color: white;
+            border-radius: 50px;
+            height: 1200px;
+            font-family: 'Varela Round', sans-serif;
+            line-height: 30px;
+            color: #1f698b;
+            font-size: 16px;
+            background-repeat: no-repeat;
+        }
+
+        .content {
+            display: grid;
+            position: absolute;
+            top: 100px;
+            left: 200px;
+        }
+
+        .title-word {
+            font-size: 40px ;
+            font-family: 'Asul', sans-serif;
+            color: #1d769f;
+        }
+
+        .part {
+            margin: 10px;
+        }
+        
+        .image {
+            border-radius: 15px;
+            position: absolute;
+            top: 250px;
+            left: 50%;
+            height: 300px;
+            width: 400px;
+        }
+
+        
+@media (max-width: 1080.5px) {
+    .container {
+            margin: 5% 5%;
+            background-color: white;
+            border-radius: 50px;
+            height: 1200px;
+            font-family: 'Varela Round', sans-serif;
+            line-height: 30px;
+            color: #1f698b;
+            font-size: 16px;
+        }
+    
+    .content {
+            display: grid;
+            position: absolute;
+            top: 100px;
+            left: 120px;
+        }
+        .image {
+            border-radius: 15px;
+            position: absolute;
+            top: 800px;
+            left: 280px ;
+            height: 200px;
+            width: 300px;
+        }
+
+}
+
+@media (max-width: 750.5px) {
+    .container {
+            margin: 5% 5%;
+            background-color: white;
+            border-radius: 50px;
+            height: 1200px;
+            font-family: 'Varela Round', sans-serif;
+            line-height: 30px;
+            color: #1f698b;
+            font-size: 16px;
+        }
+    .content {
+            display: grid;
+            position: absolute;
+            top: 100px;
+            left: 60px;
+        }
+        .image {
+            border-radius: 15px;
+            position: absolute;
+            top: 700px;
+            left: 80px ;
+            height: 170px;
+            width: 240px;
+        }
+}
+
+
+    </style>
 </head>
 
 <body>
-    <h1 class="title">
-       <span class="title-word title-word-1">Real</span>
-       <span class="title-word title-word-2">Time</span>
-       <span class="title-word title-word-3">File</span>
-       <span class="title-word title-word-4">Share</span></h1>
-    <div style="background-color: lime; padding:7px; margin-bottom: 10px;" id="join-container">Enter Room ID <input type="text" id="room">
-        <button id="join-button">Join</button>
-    </div>
+    <section class="main">
+        <div class="container" >
+            <div class="content">
+                <h1 class="title">
+                <span class="title-word title-word-1">Real</span>
+                <span class="title-word title-word-1">Time</span>
+                <span class="title-word title-word-1">File</span>
+                <span class="title-word title-word-1">Share</span>
+            </h1>
+            <div class="part">
+                <div id="join-container">Enter Room ID <input type="text" id="room">
+                    <button id="join-button">Join</button>
+                </div>
 
-    <div style="background-color: hotpink;">
-        Files :
-        <ol id="file-list">
+                <div >
+                    Files :
+                    <ol id="file-list">
 
-        </ol>
-    </div>
+                    </ol>
+                </div>
+            </div>
+            </div>
+            <div class="img">
+                <img class="image" src="https://cdn.digitbin.com/wp-content/uploads/Move_and_Transfer_Files_Between_Android_and_iPad-scaled.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <script src="./socket.io/socket.io.js"></script>
     <script src="./reciever.js"></script>
 </body>
