@@ -44,6 +44,13 @@ app.get('/receive', (req, res) => {
   res.sendFile(__dirname + '/public/receiver.html');
 })
 
+app.get('/signup', (req, res) => {
+  res.sendFile(__dirname + '/public/signup.html');
+})
+app.get('/login', (req, res) => {
+  res.sendFile(__dirname + '/public/login.html');
+})
+
 server.listen(process.env.PORT || 3000, () => {
   console.log("listening on port 3000");
 })
