@@ -13,10 +13,8 @@
 <!TABLE OF CONTENTS>
 ### Table Of Contents :
 * [Overview](#Overview)
-* [OpensourceProgramthisrepoisapartof]
-(#Open-source-program-this-repo-is-a-part-of)
-*[ContributionGuidelines]
-(#Contribution-Guidelines)
+* [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
+* [Contribution Guidelines](#Contribution-Guidelines)
 * [Contributors](#Contributors)
 * [Feedback](#Feedback)
 
@@ -102,7 +100,7 @@ To maintain a safe and inclusive space for everyone to learn and grow, contribut
 If you have any feedback or suggestions please reach out to Project - Maintainer.  
 * [Suman Mandal](https://github.com/firtysh) 
 
-Or you can create a  <a href="https://github.com/firtysh/real-time-file-share/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+Or you can create a  <a href="https://github.com/firtysh/real-time-file-share/issues">issue</a> and mention there , which new features can make this Project more good.
 <br>
 <br>
 <p align="right">(<a href="#top">Back to top</a>)</p>
@@ -119,7 +117,7 @@ Or you can create a  <a href="https://github.com/firtysh/real-time-file-share/is
 <hr>
 <h3 align="center"> 
 
- ‼️ For [JWOC'23](https://jwoc.tech/) program Admin and Mentor rights of Chrome-Extension are given to [Suman Mandal](https://github.com/firtysh) ‼️
+ ‼️ For [JWOC'23](https://jwoc.tech/) program Admin and Mentor rights of real time file share are given to [Suman Mandal](https://github.com/firtysh) ‼️
  </h3>
   
   
