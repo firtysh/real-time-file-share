@@ -13,7 +13,7 @@
 <!TABLE OF CONTENTS>
 ### Table Of Contents :
 * [Overview](#Overview)
-* [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
+* [Open Source programs this repo is a part of](#Open-Source-programs-this-repo-is-a-part-of)
 * [Contribution Guidelines](#Contribution-Guidelines)
 * [Contributors](#Contributors)
 * [Feedback](#Feedback)
