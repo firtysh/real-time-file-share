@@ -63,7 +63,7 @@ npm run start
 
 <br>
 
-<br>
+
 ## 🤝 Contributing
 1. [Fork the repository](https://github.com/firtysh/real-time-file-share/fork "Fork the repository")
 2. Clone your fork : ` git clone https://github.com/your-username/real-time-file-share.git`
@@ -80,7 +80,8 @@ npm run start
 <a href="https://github.com/firtysh/real-time-file-share"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
 
 <br>
-Thanks to all the **people who have contributed** 💜
+
+Thanks to all those **who contributed** 💜
 
 
 
