@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <!-- gfonts  ending -->
     <title>One Tap To Share!</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="design.css">
     <link rel="icon" href="favicon.png">
    
@@ -40,9 +41,18 @@
                 <li>kjgsc</li>
                 <li>kjgsc</li>
             </ul>
+            <div class="files-list">
+              <div class="title">Shared files</div>
+              <div class="item">
+                <div class="progress"></div>
+                <div class="filename"></div>
+              </div>
+            </div>
+            <button id="file-btn1">Open room</button>
         </div>
         <!-- <label for="file">gud</label> -->
-        <input id="file" type="file" name="file">
+        <!-- <input id="file" type="file" name="file"> -->
+        <input  type="file"  id="file-input">
         <br>
         <button id="file-btn">Send</button>
         
@@ -83,8 +93,9 @@
       </div>
     
 
-    <script src="./socket.io/socket.io.js"></script>
-    <script src="./sender.js"></script>
+      <script type="text/javascript" src="./socket.io/socket.io.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.1/download.min.js"></script>
+      <script type="text/javascript" src="./code.js"></script>
 </body>
 
 </html>
