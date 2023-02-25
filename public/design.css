@@ -287,6 +287,26 @@ input::file-selector-button {
       color: #00425A;
       background-color: #FC7300;
     }
+    .loader{
+      margin: 0;
+      position: fixed;
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .disappear{
+    animation: vanish 4s forwards;
+    }
+    @keyframes vanish{
+    100%{
+       opacity: 0;
+       visibility: hidden;
+      }
+    }
     @media only screen and (max-width: 1200px){
       input::file-selector-button {
         font-weight: bold;
