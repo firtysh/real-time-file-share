@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=Swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+section{
+    padding: 100px 0;
+    background: linear-gradient(honeydew,rgb(50, 89, 241));
+}
+.about{
+    font-family:'Courier New', Courier, monospace;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px ;
+    font-family:cursive;
+}
+.about .title::before{
+    content:"";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.about .title::after{
+    content:"Our Vision";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(241, 58, 58);
+    padding: 5px;
+     background:rgb(179, 179, 231);
+    transform: translateX(-50%);
+}
+.about .about-content{
+     display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+}
+.about .about-content .left{
+     width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    margin-top: 10px;
+    color:rgb(135, 36, 36);
+    font-family: cursive;
+}
+.about .about-content .right p{
+    text-align: justify;
+    font-size: 25px;
+}
+.about .about-content .right a{
+    display:inline-block;
+    background: orangered;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid orangered;
+    transition: all 0.3s ease;
+    
+}
+.about .about-content .right a:hover{
+    color: orangered;
+    background: none;
+}
