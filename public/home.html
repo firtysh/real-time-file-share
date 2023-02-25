@@ -15,6 +15,9 @@
     
 </head>
 <body>
+    <div id="preloader" class="loader">
+    <iframe src="https://giphy.com/embed/3o7bu3XilJ5BOiSGic" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
     <!-- Here Navbar is added -->
     <div class="topnav">
         <a class="active" href="home.html">Home</a>
@@ -101,5 +104,12 @@
 
     <script src="./socket.io/socket.io.js"></script>
 </body>
+<script>
+var loader = document.querySelector(".loader");
+window.addEventListener("load", vanish);
+function vanish(){
+loader.classList.add("disappear");
+}
+ </script>
 
 </html>
