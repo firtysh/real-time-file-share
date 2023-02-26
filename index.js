@@ -1,8 +1,21 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const mongoose = require("mongoose");
+mongoose.set("strictQuery", false);
 
 const server = require('http').createServer(app);
+
+mongoose.connect("mongodb://127.0.0.1:27017/fileshare", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log("Database connected successfully");
+  })
+  .catch((error) => {
+    console.log("Error connecting to database:", error);
+  });
 
 
 app.use(express.static(path.join(__dirname, 'public')));
