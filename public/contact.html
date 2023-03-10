@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./contact.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./contact.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-
-
-<section class="contact" id="contact">
-    <div class="max-width">
+  </head>
+  <body>
+    <section class="contact" id="contact">
+      <div class="max-width">
         <h2 class="title">Contact Us</h2>
-    <div class="contact-content">
-     <div class="column left">
-        <div class="icons">
-            <div class="rows">
+        <div class="contact-content">
+          <div class="column left">
+            <div class="icons">
+              <div class="rows">
                 <i class="fas fa-user"></i>
                 <div class="info">
-                    <div class="head">Name</div>
-                    <div class="sub-title">ABC XYZ</div>
+                  <div class="head">Name</div>
+                  <div class="sub-title">
+                    <input
+                      type="text"
+                      name="name"
+                      id="details"
+                      placeholder="Name"
+                    />
+                  </div>
                 </div>
-            </div>
-            <div class="rows">
+              </div>
+              <div class="rows">
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="info">
-                    <div class="head">Phone</div>
-                    <div class="sub-title">+91 1234567891 / +91 9876543219</div>
+                  <div class="head">Phone</div>
+                  <div class="sub-title">
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="details"
+                      placeholder="Phone number"
+                    />
+                  </div>
                 </div>
-            </div>
-            <div class="rows">
+              </div>
+              <div class="rows">
                 <i class="fas fa-envelope"></i>
                 <div class="info">
-                    <div class="head">Email Address</div>
-                    <div class="sub-title">abc123@gmail.com</div>
+                  <div class="head">Email</div>
+                  <div class="sub-title">
+                    <input
+                      type="email"
+                      name="email"
+                      id="details"
+                      placeholder="Email"
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="column right">
-        <div class="text"><h2>Message me</h2></div>
-        <form action="#">
-            <div class="fields">
+          </div>
+          <div class="column right">
+            <div class="text"><h2>Message me</h2></div>
+            <form action="#">
+              <div class="fields">
                 <div class="field name">
-                     <input type="text" placeholder="Name" required>
+                  <input type="text" placeholder="Name" required />
                 </div>
                 <div class="field email">
-                    <input type="text" placeholder="email"required>
-               </div>
-            </div>
-               <div class="field">
-                <input type="text" placeholder="Subject"required>
+                  <input type="text" placeholder="email" required />
+                </div>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  style="padding: 20px"
+                  placeholder="Subject"
+                  required
+                />
               </div>
               <div class="field textarea">
-                <textarea cols="20" rows="10" placeholder="Message" required></textarea>
+                <textarea
+                  cols="20"
+                  rows="10"
+                  placeholder="Message"
+                  required
+                ></textarea>
               </div>
               <div class="button">
                 <button type="submit">Send massage</button>
-            </div>
-        </form>
-    </div>
-  </div>
-</div>
-</section>
-</body>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

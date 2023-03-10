@@ -6,12 +6,12 @@
 }
 
 body {
-    background: linear-gradient(#89CFF0, #1f698b);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 135px 0;
+    background: linear-gradient(honeydew,rgb(50, 89, 241));
 }
 
 .container {

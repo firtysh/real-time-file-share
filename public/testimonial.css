@@ -13,12 +13,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #EFEFEF;
+    padding: 135px 0;
+    background: linear-gradient(honeydew,rgb(50, 89, 241));
 }
 
 .slide-container{
     max-width: 1300px;
-    background-color: rgb(58, 58, 247);
+    /* background-color: rgb(58, 58, 247); */
     width:100%;
     padding: 25px 0;
     border-radius: .9rem;
@@ -40,8 +41,9 @@ body{
     padding: 45px 20px;
     margin:0 40px;
     background-color: #fff;
-     overflow: hidden;
+    overflow: hidden;
     border-radius: 25px;
+    margin-top: 30px;
 }
 
 .card{

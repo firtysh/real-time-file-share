@@ -16,7 +16,7 @@ html{
 
 section{
     height: 100vh;
-    padding: 100px 0;
+    padding: auto;
     background: linear-gradient(honeydew,rgb(50, 89, 241));
 }
 .contact{
@@ -48,17 +48,21 @@ section{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: turquoise;
+    color: rgb(241, 58, 58);
     padding: 5px;
-    background: #fff;
+    background:rgb(179, 179, 231);
     transform: translateX(-50%);
 }
+
 .contact .contact-content .info .head{
     font-weight: 500;
     color:brown;
+    display: inline;
+    margin: 30px;
 }
 .contact .contact-content .info .sub-title{
     color:#333;
+    display: inline;
 }
 .contact .contact-content{
     display:flex;
@@ -108,6 +112,7 @@ section{
 .contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
+    margin-top: 15px;
 } 
 .contact .right form .button{
     height:47px;
@@ -124,9 +129,29 @@ section{
     border-radius: 6px;
     cursor: pointer;
     transition:all 0.3s ease;
+    margin-top: 30px;
 }
 .contact .right form .button button:hover{
     color:turquoise;
     background: none;
 }
 
+.text {
+    margin: 50px;
+    text-align: center;
+    background:rgb(179, 179, 231);
+    color: brown;
+    padding: 10px;
+}
+
+#details {
+    /* height: 100%;
+    width:100%; */
+    border:1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-family: 'poppins',sans-serif;
+    margin: 10px 0;
+}
