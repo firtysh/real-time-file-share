@@ -35,22 +35,34 @@ io.on('connection', (socket) => {
   })
 })
 
+//Setting up EJS Template Engine
+app.set('view engine', 'ejs');
+
 app.get("/",(req,res)=>{
-  res.sendFile(__dirname+'/public/home.html');
+  res.render(__dirname+'/public/home');
+})
+app.get("/about",(req,res)=>{
+  res.render(__dirname+'/public/About');
+})
+app.get("/testimonial",(req,res)=>{
+  res.render(__dirname+'/public/testimonial');
 })
 
 app.get('/send', (req, res) => {
-  res.sendFile(__dirname + '/public/sender.html');
+  res.render(__dirname + '/public/sender');
+})
+app.get('/contact', (req, res) => {
+  res.render(__dirname + '/public/contact');
 })
 app.get('/receive', (req, res) => {
-  res.sendFile(__dirname + '/public/receiver.html');
+  res.render(__dirname + '/public/receiver');
 })
 
 app.get('/signup', (req, res) => {
-  res.sendFile(__dirname + '/public/signup.html');
+  res.render(__dirname + '/public/signup');
 })
 app.get('/login', (req, res) => {
-  res.sendFile(__dirname + '/public/login.html');
+  res.render(__dirname + '/public/login');
 })
 
 server.listen(process.env.PORT || 3000, () => {
