@@ -6,7 +6,7 @@
     color: white;
 }
 body{
-  background-image: url(bg2.png);
+  background-image: url(background.png);
   background-size: cover;
   box-sizing: border-box;
   background-repeat: no-repeat;
