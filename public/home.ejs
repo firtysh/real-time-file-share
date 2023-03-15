@@ -15,11 +15,12 @@
     
 </head>
 <body>
-    <div id="preloader" class="loader">
+    <img>
+    <!-- <div id="preloader" class="loader">
     <iframe src="https://giphy.com/embed/3o7bu3XilJ5BOiSGic" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    </div>
+    </div> -->
     <!-- Here Navbar is added -->
-    <div class="topnav">
+    <div class="topnav homenav">
         <a class="active" onclick="location.href='/'">Home</a>
         <a onclick="location.href='/about'">About</a>
         <a onclick="location.href='/contact'">Contact </a>
@@ -38,9 +39,10 @@
                 <span class="title-word title-word-3">File</span>
                 <span class="title-word title-word-4">Share</span></h1>
         <div class="room-id"><h1>Choose Your Role </h1></div>
+        <div class="main2">
         <div  class="home_main">
             <form action="/receive" method="get" class="home_main">
-                <button  id="main" type="submit">Reciever</button>
+                <button  id="main" type="submit">Receiver</button>
             </form>
            
         </div>
@@ -49,6 +51,7 @@
                 <button  id="main" type="submit">Sender</button>
             </form>
         </div>   
+    </div>
         
         <div class="contact">
             <p><h4>Socials: </h4></p>
@@ -59,10 +62,10 @@
     </div>
     <div class="home_main">
         <div id="list">
-            <p>Welcome to RealTime File Share!</p> <br>
+            <p class="head_welcome">Welcome to RealTime File Share!</p> <br>
             <p>A place to share files in real time & Collaborate with your peers.</p><br>
             <p>App is built using Socket.Io and is simple to use</p><br>
-            <p>Choose Your Roles: </p><br>
+            <p class="head_welcome">Choose Your Roles: </p><br>
             <p>Receiver: Insert RoomID to receive files in that room. </p><br>
             <p>Sender: Share your RoomID for reciever to join and receive files.</p>
         </div>
