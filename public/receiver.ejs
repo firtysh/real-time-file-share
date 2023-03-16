@@ -9,6 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="receiver.css" />
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="translate.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -31,6 +33,20 @@
             <li>
               <a onclick="location.href='/contact'">Contact</a>
             </li>
+            <li><div id="google_translate_element"></div>
+              <script src="translate.js"></script>
+  
+          <script type="text/javascript">
+              function googleTranslateElementInit() {
+                  new google.translate.TranslateElement(
+                      {pageLanguage: 'en'},
+                      'google_translate_element'
+                  );
+              }
+          </script>
+  
+          <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+          </script></li>
           </ul>
           <div class="login-signup">
             <a onclick="location.href='/login'">Login</a> or <a onclick="location.href='/signup'">Signup</a>

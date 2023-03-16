@@ -394,6 +394,7 @@ input::file-selector-button {
 }
 .topnav a.active {
   background-color: #2196F3;
+  height: 70px;
   color: white;
 }
 
